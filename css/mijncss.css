@@ -1,0 +1,256 @@
+@import "https://www.leafal.io/assets/css/reset.css";
+
+
+
+/*.items {
+  color:black;
+  position: fixed;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 30px;
+  border-radius: 5px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none
+  background-color:white;
+  border: 2px solid rgb(28, 110, 164);
+  display: inline-block;}
+.items:hover {
+  background-color:darkgrey;
+  color:black; }
+.items:active {
+  background: #144E75; } */
+
+  .row {
+    float: left;
+    list-style-type: none;
+    display: inline-block;
+    margin-bottom: 40px;
+    justify-content: flex-start;
+    width: 60%;
+  }
+
+  .collapsible {
+    background-image: url("../img/stroopwafelpatroon3.jpg");
+    background-color: darkgrey;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .content {
+    padding: 9px;
+    display: none;
+    overflow: hidden;
+    background-color: darkgrey;
+    width: 240px;
+    margin: 0 0 0 10px;
+  }
+
+  #buttons {
+    width: 240px;
+    height: 120px;
+    display: inline-flex;
+    text-align: right;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat;
+    text-decoration: none;
+    color: black;
+    margin: 40px 0 0 10px;
+    border: 1px solid #000;
+    border-color: slategrey;
+  }
+
+  #buttons:hover {
+    background-color: #f2f2f2;
+    bottom: 0;
+  }
+
+  #buttons:active {
+    background-color: #c2d6d6;
+  }
+
+  #items {
+    display: inline-block;
+    text-align: left;
+    height: 100px;
+  }
+
+  #textleft {
+    margin-top: 40px;
+    margin-left: 10px;
+    font-family: Montserrat;
+    float: left;
+    padding-right: 100px;
+  }
+
+#ding {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+#ding:hover {
+  color: aqua;
+}
+
+#ding:active {
+  color: green;
+}
+
+/* Nav Bar */
+
+nav {
+  background-color: #ffe6b3;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  list-style: none;
+  text-align: right;
+  padding: 20px 0 20px 0;
+  position: fixed;
+  width: 100%;
+}
+
+nav > ul > li {
+  display: inline-block;
+  padding: 0 25px 0 25px
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: black
+}
+
+nav > ul > li > a:hover {
+  color: #bf8040
+}
+
+#logo {
+  text-decoration: none;
+  color: black;
+  float: left;
+  padding-left: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#logo > a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Banner */
+
+.banner {
+  width: 100%;
+  background-image: url("../img/banner2.jpg");
+  height: 400px;
+  background-size: auto 100%;
+  background-position: center;
+  display: block;
+  z-index: 2;
+}
+
+.text {
+  padding-top: 20px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  border-left: 9px inset aqua;
+  padding-left: 9px;
+  color: black;
+  text-align: left;
+  margin: 5px 0 10px 0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  border-left: 9px inset aqua;
+  padding-left: 9px;
+  color: black;
+  text-align: left;
+  font-size: 20px;
+  margin: 5px 0 10px 0;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  overflow-x: hidden
+}
+
+#achtergrond {
+  width: auto;
+  height: 100%;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  filter: opacity(40%);
+}
+
+.frontpage {
+  margin: 20px 20px 20px 20px;
+  padding: 20px;
+  background-color: #ffcc99;
+  border-radius: 20px;
+  overflow: auto;
+}
+
+.frontpagetext {
+  font-size: 15px;
+}
+
+#stroopwafelman {
+  width: 720px;
+  float: left;
+}
+
+/* Footer */
+
+footer {
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#copyright {
+  text-align: right;
+  margin: 0 20px 0 0;
+}
+
+.footerbar {
+  list-style: none;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footerbar > li {
+  float: left;
+  padding-top: 20px;
+  padding-left: 100px;
+  left: 0;
+}
+
+.alles {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

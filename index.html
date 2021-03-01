@@ -1,0 +1,74 @@
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Sienke Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&display=swap" rel="stylesheet">
+</head>
+
+<style>
+nav {
+  margin-top: 50px;
+}
+</style>
+
+<body>
+    <img id="achtergrond" src="img/lucht van sienke.png">
+    <div class="alles">
+
+        <header>
+            <div class="logobalk">
+                <p>Sienke Rietema</p>
+            </div>
+            <!--Navbar-->
+            <div id="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="info.html">Info</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <article class="hoofdpagina">
+          <a class="logo" href="info.html">SIENKE RIETEMA</a>
+          <!--<article class="frontpage">
+            <div class="frontpagetext">
+              <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+            </div>
+          </article>-->
+        </article>
+
+        <div class="tekstvak1">
+          <p>Lorem ipsum dolor sit amet, lorem saperet ad pro, gloriatur inciderint id mel, usu ei ullum timeam constituto. Equidem admodum vim ne, falli aliquid an nam. Inermis copiosae efficiantur ei has, eam labitur admodum menandri an. Te duo diam epicuri, mel ex labores perfecto. Pro ea postea delenit constituam, pro ei suas assum mazim. An ius wisi consectetuer, legimus abhorreant mel in.</br>Vim an munere detracto theophrastus, adhuc qualisque intellegebat ut pro. Et sed ipsum qualisque iudicabit, nibh utamur corpora mel ut. Nec te falli verterem adipisci, mei iuvaret aliquam quaestio et, sit et oblique maluisset repudiandae. Cu omnis aeque disputationi mei, homero invidunt ex eam.</br>Et partem aliquid quo, cu duo tale epicuri, in legendos petentium per. Vix at autem referrentur. Mea ea soleat imperdiet, in nostro offendit his. Eu sed appareat definiebas. In option liberavisse mea, no mel populo nostrum.
+          </p>
+        </div>
+        <div class="banner"></div>
+
+        <footer>
+            <ul class="footerbar">
+                <li><a>Contact:<br>Hier kan je iets neerzetten<br>En hier nog iets</a></li>
+            </ul>
+            <p id="copyright">Website gemaakt door Yannick Zuurbier</p>
+        </footer>
+
+    </div>
+</body>
+<script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
+</html>

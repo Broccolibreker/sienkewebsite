@@ -1,0 +1,185 @@
+@import "https://www.leafal.io/assets/css/reset.css";
+
+/* Basis */
+#achtergrond {
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: opacity(50%);
+  filter: brightness(80%);
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: grey;
+  font-style: Literata;
+}
+
+.alles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Literata', sans-serif;
+  border-left: 9px inset aqua;
+  padding-left: 9px;
+  color: black;
+  text-align: left;
+  margin: 5px 0 10px 0;
+}
+
+h2 {
+  font-family: 'Literata', sans-serif;
+  border-left: 9px inset aqua;
+  padding-left: 9px;
+  color: black;
+  text-align: left;
+  font-size: 20px;
+  margin: 5px 0 10px 0;
+}
+
+p {
+  font-family: 'Literata', sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.row > .col {
+  margin: 0 1rem;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+/* Navbar */
+.logobalk {
+  font-size: 24px;
+  padding: 30px;
+  text-align: right;
+}
+
+#navbar {
+  color: black;
+  list-style: none;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+#navbar > ul > li {
+  display: inline-block;
+  padding: 0 25px 0 25px
+}
+
+#navbar > ul > li > a {
+  text-decoration: none;
+  color: black;
+  border-width: 1px;
+  border-style: solid;
+  background-color: grey;
+  border-color: lightgrey;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  font-family: Literata;
+  opacity: 60%;
+  transition: 0.3s;
+}
+
+#navbar > ul > li > a:hover {
+  color: orange;
+  opacity: 40%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 50px;
+}
+
+/* Article */
+.logo {
+  text-align: center;
+  position: absolute;
+  font-family: 'IM Fell Great Primer SC', serif;
+  text-decoration: none;
+  color: #47476b;
+  font-size: 104;
+  display: block;
+  width: 100%;
+  top: 40%;
+  transition: 0.3s;
+}
+
+.logo:hover {
+  color: #33334d;
+}
+
+.hoofdpagina {
+  min-height: calc(100vh - 139px);
+}
+
+.tekstvak1 {
+  top: 0;
+  font-size: 20;
+  width: auto;
+  height: 300px;
+  padding: 50px 180px 50px 180px;
+  background-color: white;
+}
+
+.banner {
+  background-image: url("https://images3.persgroep.net/rcs/YVRzO3bKlF2n0o-efov2zmPtfdY/diocontent/61457923/_crop/0/329/2106/1190/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.9");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  padding: 10px 10px 10px 10px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#copyright {
+  text-align: right;
+  padding: 0 50px 0 0;
+  font-family: Literata;
+  color: #33334d;
+}
+
+.footerbar {
+  list-style: none;
+  display: inline-block;
+  font-family: Literata;
+}
+
+.footerbar > li {
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-left: 100px;
+  left: 0;
+  border-left: 6px solid #47476b;
+}
